@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: #ededed;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+
+.encabezado {
+    background-color: #00a;
+}
+.encabezado__barra--principal {
+    text-align: center;
+    font-size: x-large;
+    border-bottom: #11f solid 2px;
+}
+.barra--principal__titulo {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+.contenido--principal {
+    background-color: #f90;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.contenido--principal__titulo {
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.seccion {
+    border: solid 3px #fb0;
+    padding: 20px;
+    margin: 10px 30px;
+    color: #000;
+}
+.seccion:hover {
+    background-color: #fb0;
+}
+.titulos {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+.titulos--proximo {
+    color: #555a;
+}
+.titulo--de--informacion {
+    padding-bottom: 30px;
+}
+.mas--informacion {
+    text-decoration: none;
+    color: #a0f;
+}
+.boton {
+    border: none;
+    border-radius: 30px;
+    background-color: #00f;
+}
+.boton__jugar {
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: x-large;
+}
+.boton:hover {
+    background-color: #00a;
+}
+
+.pie--de-letra {
+    position: sticky;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+@media screen and (max-width:275px) {
+    .seccion {
+        margin: 5px;
+        font-size: x-large;
+    }
+}
+
+.contenedor--informatico {
+    display: flex;
+}
+
+.contenedor--de--imagen {
+    padding: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.imagen--de--autor {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    transition: width,height,border-radius;
+    transition-duration: 1s;
+}
+.imagen--de--autor:hover
+.nombre--de--autor {
+    margin: auto;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+.lista--de--informacion {
+    margin: 0;
+    padding: 30px;
+}
+.elementos--de--lista {
+    padding: 0;
+    margin: 0;
+}
+.lista--de--informacion__elementos {
+    padding: 5px;
+    margin: 20px 5px;
+}
+.seccion--informacion__contenido {
+    font-size: large;
+    color: #000;
+}
+.seccion--informacion--contenido__importante {
+    font-size: medium;
+    text-decoration: underline;
+    color: #222;
+
+}
+
+@media screen and (max-width:770px) {
+    .contenedor--informatico {
+        flex-direction: column;
+    }
+}
